@@ -8,18 +8,19 @@ namespace AM.ApplicationCore.Domain
 {
     public class Flight
     {
+       
         public string Destination { get; set; }
         public string Departure { get; set; }
         public DateTime FlightDate { get; set; }
         public int FlightId { get; set; }
-        public string EffectiveArrival { get; set; }
+        public DateTime EffectiveArrival { get; set; }
         public int EstimatedDuration { get; set; }
-        public Plane plain { get; set; }
+        public Plane Plane { get; set; }
         public ICollection<Passenger> Passengers { get; set; }
         public override string ToString()
         {
             return this.Destination + " " + this.FlightId + " "+this.Departure+" "+this.EffectiveArrival+" "+this.EstimatedDuration+" "+this.FlightDate
-                +" "+this.plain+" "+this.Passengers;
+                +" "+this.Plane + " "+this.Passengers;
 
         }
     }

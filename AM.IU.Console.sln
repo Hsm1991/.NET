@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.IU.Console", "AM.IU.Console\AM.IU.Console.csproj", "{21A05A9E-9C6D-4FC5-BEB1-53ADCA63396A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.IU.Console", "AM.IU.Console\AM.IU.Console.csproj", "{21A05A9E-9C6D-4FC5-BEB1-53ADCA63396A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.ApplicationCore", "AM.ApplicationCore\AM.ApplicationCore.csproj", "{8FF261F8-D13C-405C-AB9B-F0453258D7D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.ApplicationCore", "AM.ApplicationCore\AM.ApplicationCore.csproj", "{8FF261F8-D13C-405C-AB9B-F0453258D7D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
