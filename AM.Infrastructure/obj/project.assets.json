@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/AM.ApplicationCore.dll": {}
         }
-      },
-      "AM.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AM.ApplicationCore": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AM.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AM.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -32,17 +19,11 @@
       "type": "project",
       "path": "../AM.ApplicationCore/AM.ApplicationCore.csproj",
       "msbuildProject": "../AM.ApplicationCore/AM.ApplicationCore.csproj"
-    },
-    "AM.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../AM.Infrastructure/AM.Infrastructure.csproj",
-      "msbuildProject": "../AM.Infrastructure/AM.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AM.ApplicationCore >= 1.0.0",
-      "AM.Infrastructure >= 1.0.0"
+      "AM.ApplicationCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.IU.Console\\AM.IU.Console.csproj",
-      "projectName": "AM.IU.Console",
-      "projectPath": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.IU.Console\\AM.IU.Console.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "projectName": "AM.Infrastructure",
+      "projectPath": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.Infrastructure\\AM.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.IU.Console\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "net6.0"
@@ -66,9 +47,6 @@
           "projectReferences": {
             "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
               "projectPath": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
-            },
-            "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.Infrastructure\\AM.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\AM.IU.Console\\AM.Infrastructure\\AM.Infrastructure.csproj"
             }
           }
         }

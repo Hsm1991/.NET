@@ -66,8 +66,19 @@ ss.Flights = TestData.listFlights;
 foreach (var flight in s.GetFlightDates1("Paris")){ 
     Console.WriteLine(flight);
 }
-ServiceFlight s1 = new ServiceFlight();
-s1.Flights = TestData.listFlights;
-s1.DestinationGroupedFlights();
+//ServiceFlight s1 = new ServiceFlight();
+//s1.Flights = TestData.listFlights;
+//s1.DestinationGroupedFlights();
+//s1.FlightDetailsDel(TestData.BoingPlane);
+//Console.WriteLine(s1.DurationAverageDel("Paris"));
+Passenger passenger1 = new Passenger()
+{
+    FirstName = "houssemeddine",
+    LastName = "mhedhbi",
+    EmailAdress = "abc@gmail.com"
+};
+Console.WriteLine(passenger1.ToString());
+PassengerExtension.UpperFullName(passenger1);
+Console.WriteLine(passenger1.ToString());
 
 

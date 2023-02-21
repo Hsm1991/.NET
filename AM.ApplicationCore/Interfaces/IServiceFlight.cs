@@ -18,6 +18,8 @@ namespace AM.ApplicationCore.Interfaces
         public IEnumerable<Flight> OrderedDurationFlights();
         public IEnumerable<Traveller> SeniorTravellers(Flight flight);
         public IEnumerable<IGrouping<string, Flight>> DestinationGroupedFlights();
+        
+
 
 
     }
